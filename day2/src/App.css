@@ -1,0 +1,61 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('https://tse1.mm.bing.net/th?id=OIP.-djxPsTkoyKhyR7ORX0T-wHaEK&pid=Api&P=0&h=180');
+}
+.logincontainer, .registercontainer {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  width: 300px;
+  text-align: center;
+}
+
+
+.loginform, .registerform {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-family:none;
+  
+}
+
+
+label {
+  font-size: 14px;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+
+input{
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #b3b0b0;
+  border-radius: 5px;
+  width: calc(100% - 22px);
+}
+
+button {
+  padding: 10px;
+  border:black;
+  border-radius: 5px;
+  background-color: #50b854;
+  color: white;
+  cursor: pointer;
+}
+
+.loginbutton {
+  margin-bottom: 10px;
+}
