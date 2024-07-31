@@ -1,0 +1,162 @@
+
+.welcome-container {
+  padding: 50px;
+  font-family: 'Arial', sans-serif;
+}
+
+
+.hero-section {
+  text-align: center;
+  padding: 50px 20px;
+  color: white;
+}
+
+.hero-section h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+.hero-section p {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 15px 30px;
+  font-size: 1.2em;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #0056b3;
+}
+
+
+.highlighted-features {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.highlighted-features h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.feature {
+  display: inline-block;
+  width: 30%;
+  padding: 20px;
+  margin: 0 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.feature h3 {
+  font-size: 1.5em;
+  color: #007bff;
+}
+
+.feature p {
+  font-size: 1em;
+  color: #666;
+}
+
+
+.welcome-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.welcome-content .feature {
+  width: 250px;
+  margin: 15px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.latest-news {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.latest-news h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.news-item {
+  margin-bottom: 20px;
+}
+
+.news-item h3 {
+  font-size: 1.5em;
+  color: #007bff;
+}
+
+.news-item p {
+  font-size: 1em;
+  color: #666;
+}
+
+
+.testimonials {
+  margin: 50px 0;
+  text-align: center;
+}
+
+.testimonials h3 {
+  font-size: 2.5em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.testimonial {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 15px;
+  border-radius: 8px;
+  margin: 15px auto;
+  max-width: 500px;
+}
+
+.testimonial p {
+  font-size: 1em;
+  color: #333;
+}
+
+/* Signup Prompt */
+.signup-prompt {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.signup-prompt h3 {
+  font-size: 2.5em;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.signup-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  color: #fff;
+  background-color: #28a745;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.signup-button:hover {
+  background-color: #218838;
+}

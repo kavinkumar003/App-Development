@@ -1,0 +1,102 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;600&family=Pacifico&display=swap');
+
+.teacher-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  max-width: 600px; 
+  margin: auto; 
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  font-family: 'Open Sans', sans-serif; 
+}
+
+.teacher-details:hover {
+  transform: scale(1.02); 
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+}
+
+.teacher-details-photo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover; 
+  margin-bottom: 20px;
+  border: 4px solid #000000;/* Add border to profile photo */
+}
+
+.teacher-details h2 {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 10px;
+  font-family: 'Pacifico', cursive; /* Stylish font for teacher names */
+}
+
+.teacher-details p {
+  font-size: 1.2em;
+  color: #666;
+  margin-bottom: 20px;
+  text-align: center; /* Center the text */
+  font-family: 'Roboto', sans-serif; /* Use Roboto for paragraph text */
+}
+
+.teacher-details h3 {
+  font-size: 1.6em;
+  color: #0072ff; /* Use primary color for headings */
+  margin-bottom: 10px;
+  font-family: 'Open Sans', sans-serif; /* Use Open Sans for subheadings */
+}
+
+.teacher-details ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center; /* Center the list items */
+}
+
+.teacher-details ul li {
+  font-size: 1.2em;
+  color: #444;
+  margin-bottom: 5px;
+}
+
+.doubt-section {
+  margin-top: 20px;
+  width: 100%;
+  text-align: center; /* Center the text and form elements */
+}
+
+.doubt-section textarea {
+  width: 100%;
+  height: 120px; /* Increased height for better usability */
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 1em;
+  margin-bottom: 10px;
+  resize: vertical; /* Allow vertical resizing */
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-family: 'Roboto', sans-serif; /* Use Roboto for textarea */
+}
+
+.doubt-section button {
+  background-color: #0072ff;
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1.1em;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-family: 'Open Sans', sans-serif; /* Use Open Sans for buttons */
+}
+
+.doubt-section button:hover {
+  background-color: #005bb5;
+  transform: translateY(-2px); /* Slight lift effect on hover */
+}

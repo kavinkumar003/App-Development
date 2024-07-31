@@ -1,0 +1,69 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "name": "jameer",
+      "email": "jameer@123",
+      "password": "12",
+      "id": 2
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 3
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "123",
+      "id": 4
+    },
+    {
+      "name": "kavin",
+      "email": "jameer@123",
+      "password": "1234",
+      "id": 5
+    },
+    {
+      "name": "daswfaffw",
+      "email": "fsfsvsdv@g",
+      "password": "56",
+      "id": 6
+    },
+    {
+      "name": "fgsdghdfsg",
+      "email": "ajbh@gmail.com",
+      "password": "111",
+      "id": 7
+    },
+    {
+      "name": "fgsdghdfsg",
+      "email": "dvgsdfbgdfb@g",
+      "password": "111",
+      "id": 8
+    },
+    {
+      "name": "inba",
+      "email": "inba@123",
+      "password": "123",
+      "id": 9
+    },
+    {
+      "name": "kavin",
+      "email": "kavin@gmail.com",
+      "password": "1234",
+      "id": 10
+    },
+    {
+      "name": "maha",
+      "email": "maha@123",
+      "password": "12345",
+      "id": 11
+    }
+  ]
+}

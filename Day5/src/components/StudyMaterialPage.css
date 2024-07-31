@@ -1,0 +1,37 @@
+.study-material-page {
+    padding: 20px;
+  }
+  
+  .material-list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .material-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .material-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .material-description {
+    font-size: 1em;
+    margin-bottom: 10px;
+  }
+  
+  .material-link {
+    font-size: 1em;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .material-link:hover {
+    text-decoration: underline;
+  }
+  
